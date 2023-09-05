@@ -268,7 +268,7 @@
 downloadButton.addEventListener('click', () => {
   //  the actual path to your resume file
   const resumeFilePath = 'UIUXSaravanan.pdf';
-  
+  console.log(resumeFilePath);
   const a = document.createElement('a');
   a.href = resumeFilePath;
   a.download = 'UIUXSaravanan.pdf';
